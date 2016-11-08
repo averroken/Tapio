@@ -2,15 +2,20 @@ package be.howest.nmct.tapio.view;
 
 import android.content.Context;
 import android.databinding.DataBindingUtil;
+import android.graphics.Point;
 import android.net.Uri;
 import android.os.Bundle;
 import android.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
+import android.view.Display;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
+import android.widget.ImageView;
 
 import com.google.gson.Gson;
+import com.squareup.picasso.Picasso;
 
 import java.io.Serializable;
 
@@ -48,9 +53,22 @@ public class LandmarkDetailFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        Context context = getActivity().getApplicationContext();
         binding = DataBindingUtil.inflate(inflater,R.layout.fragment_landmark_detail, container, false);
         binding.setLandmark(landmark);
+        ImageView imageView = binding.DetailedLandmarkImage;
+
+        WindowManager wm = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
+        Display display = wm.getDefaultDisplay();
+
+        Point size = new Point();
+        display.getSize(size);
+        int displayWidth = size.x;
+        int height = 0;
+
+        Picasso.with(context).load(landmark.getImageURLBig()).resize(displayWidth, height).into(imageView);
         binding.executePendingBindings();
+
         return binding.getRoot();
     }
 

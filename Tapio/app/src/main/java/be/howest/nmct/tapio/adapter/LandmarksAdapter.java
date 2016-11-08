@@ -13,8 +13,10 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import com.google.gson.Gson;
+import com.squareup.picasso.Picasso;
 
 import be.howest.nmct.tapio.R;
 import be.howest.nmct.tapio.databinding.RowLandmarksBinding;
@@ -26,8 +28,8 @@ import be.howest.nmct.tapio.view.MainActivity;
 public class LandmarksAdapter extends RecyclerView.Adapter<LandmarksAdapter.Viewholder> {
 
     private LandmarksList landmarksList = null;
-
     private Context context;
+    private ImageView imageViewLandmark;
 
 
     public LandmarksAdapter(LandmarksList landmarksList, Context context) {
@@ -39,6 +41,8 @@ public class LandmarksAdapter extends RecyclerView.Adapter<LandmarksAdapter.View
     public Viewholder onCreateViewHolder(ViewGroup parent, int viewType) {
         RowLandmarksBinding binding = DataBindingUtil.inflate(LayoutInflater.from(parent.getContext()), R.layout.row_landmarks, parent, false);
         LandmarksAdapter.Viewholder vh = new LandmarksAdapter.Viewholder(binding);
+        imageViewLandmark = vh.getBinding().imageViewLandmark;
+
         return vh;
     }
 
@@ -47,7 +51,7 @@ public class LandmarksAdapter extends RecyclerView.Adapter<LandmarksAdapter.View
         Landmarks landmarks= landmarksList.getLandmarks().get(position);
         holder.getBinding().setLandmarks(landmarks);
         holder.getBinding().executePendingBindings();
-
+        Picasso.with(context).load(landmarks.getImageURLBig()).into(imageViewLandmark);
     }
 
     @Override

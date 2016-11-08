@@ -23,10 +23,10 @@ public class Landmarks extends BaseObservable{
      */
 
     private String _id;
-    private String Naam;
+    private String Name;
     private String Description;
     //    private LocationObject Locatie;
-    private Integer Afstand;
+    private Integer Distance;
     private String ImageURLBig;
     private Integer Visits;
     private Integer Likes;
@@ -40,12 +40,12 @@ public class Landmarks extends BaseObservable{
         this._id = _id;
     }
 
-    public String getNaam() {
-        return Naam;
+    public String getName() {
+        return Name;
     }
 
-    public void setNaam(String naam) {
-        Naam = naam;
+    public void setName(String name) {
+        Name = name;
     }
 
     public String getDescription() {
@@ -88,12 +88,12 @@ public class Landmarks extends BaseObservable{
         Likes = likes;
     }
 
-    public Integer getAfstand() {
-        return Afstand;
+    public Integer getDistance() {
+        return Distance;
     }
 
-    public void setAfstand(Integer afstand) {
-        Afstand = afstand;
+    public void setDistance(Integer distance) {
+        Distance = distance;
     }
 
     public String getType() {
