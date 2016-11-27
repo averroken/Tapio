@@ -45,7 +45,7 @@ public class LoginActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(Call<LoginResponse> call, Response<LoginResponse> response) {
                         Integer code = response.code();
-                        if (code != 401 && code != 400){
+                        if (code  == 200){
                             LoginResponse login = response.body();
                             Log.d("login", login.getUsername());
                             Log.d("login", login.getToken());
