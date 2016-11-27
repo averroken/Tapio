@@ -4,11 +4,13 @@ import android.accounts.Account;
 import android.accounts.AccountAuthenticatorResponse;
 import android.accounts.AccountManager;
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import be.howest.nmct.myapplication.auth.Contract;
 
@@ -17,6 +19,7 @@ public class LoginActivity extends Activity {
     private AccountAuthenticatorResponse mAccountAuthenticatorResponse;
     private EditText usernameEditText, passwordEditText;
     private Button signInButton;
+    private Context mContext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,11 +40,17 @@ public class LoginActivity extends Activity {
         usernameEditText = (EditText) findViewById(R.id.usernameEditText);
         passwordEditText = (EditText) findViewById(R.id.passwordEditText);
         signInButton = (Button) findViewById(R.id.signInButton);
+        mContext = this;
 
         signInButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                addAccount(usernameEditText.getText().toString());
+                String usernameString = usernameEditText.getText().toString();
+                if  (usernameString.isEmpty()) {
+                    Toast.makeText(mContext, "Username can't be empty", Toast.LENGTH_SHORT).show();
+                }else {
+                    addAccount(usernameString);
+                }
             }
         });
     }
