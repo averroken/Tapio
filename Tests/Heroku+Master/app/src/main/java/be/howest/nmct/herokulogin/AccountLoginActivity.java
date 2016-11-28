@@ -32,17 +32,11 @@ public class AccountLoginActivity extends Activity {
     private TapioService service;
     private String token = null, usernameString, passwordString;
     private Retrofit retrofit;
-    private Boolean LoginSuccess;
-    private SharedPreferences preferences;
-    private String tokenKey = "be.howest.nmct.herokulogin.token";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.account_activity_login);
-
-        preferences = this.getSharedPreferences(
-                "be.howest.nmct.herokulogin", Context.MODE_PRIVATE);
 
         initWidgets();
         initRetrofit();
@@ -75,17 +69,19 @@ public class AccountLoginActivity extends Activity {
         });
     }
 
-    private void addAccount(String username, String password) {
+    private void addAccount(String username, String password, String token) {
             Account[] accountsByType = mAccountManager.getAccountsByType(Contract.ACCOUNT_TYPE);
             Account account;
 
             if (accountsByType.length == 0) {
                 account = new Account(usernameString, Contract.ACCOUNT_TYPE);
                 mAccountManager.addAccountExplicitly(account, null, null);
+                mAccountManager.setAuthToken(account, Contract.AUTH_TYPE, token);
             } else if (!usernameString.equals(accountsByType[0].name)) {
                 mAccountManager.removeAccount(accountsByType[0], this, null, null);
                 account = new Account(usernameString, Contract.ACCOUNT_TYPE);
                 mAccountManager.addAccountExplicitly(account, null, null);
+                mAccountManager.setAuthToken(account, Contract.AUTH_TYPE, token);
             } else {
                 account = accountsByType[0];
             }
@@ -118,8 +114,7 @@ public class AccountLoginActivity extends Activity {
                     Log.d("login", login.getToken());
                     token = login.getToken();
                     Toast.makeText(mContext, "Logged In", Toast.LENGTH_LONG).show();
-                    preferences.edit().putString(tokenKey, token).apply();
-                    addAccount(username, password);
+                    addAccount(username, password, token);
                 } else {
                     Toast.makeText(mContext, "Login failed", Toast.LENGTH_LONG).show();
                     passwordEditText.setText("");
@@ -129,7 +124,6 @@ public class AccountLoginActivity extends Activity {
             @Override
             public void onFailure(Call<LoginResponse> call, Throwable t) {
                 Log.d("login", t.getMessage());
-                LoginSuccess = false;
             }
         });
     }

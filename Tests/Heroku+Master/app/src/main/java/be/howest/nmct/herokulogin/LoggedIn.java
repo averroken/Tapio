@@ -1,5 +1,7 @@
 package be.howest.nmct.herokulogin;
 
+import android.accounts.Account;
+import android.accounts.AccountManager;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -10,6 +12,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import be.howest.nmct.herokulogin.auth.Contract;
 import be.howest.nmct.herokulogin.models.TokenResponse;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -19,13 +22,12 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class LoggedIn extends AppCompatActivity {
     private Context mContext;
-    private SharedPreferences preferences;
-    private String tokenKey = "be.howest.nmct.herokulogin.token";
     private TextView tokenTextView;
     private Button testTokenButton;
     private TapioService service;
     private Retrofit retrofit;
     private String tokenString;
+    private AccountManager mAccountManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,8 +35,8 @@ public class LoggedIn extends AppCompatActivity {
         setContentView(R.layout.activity_logged_in);
 
         mContext = this;
-        preferences = this.getSharedPreferences(
-                "be.howest.nmct.herokulogin", Context.MODE_PRIVATE);
+        mAccountManager = AccountManager.get(this);
+
 
         initWidgets();
         initRetrofit();
@@ -42,7 +44,8 @@ public class LoggedIn extends AppCompatActivity {
 
     private void initWidgets() {
         tokenTextView = (TextView) findViewById(R.id.tokenTextview);
-        tokenString = preferences.getString(tokenKey, null);
+        Account account = mAccountManager.getAccountsByType(Contract.ACCOUNT_TYPE)[0];
+        tokenString = mAccountManager.peekAuthToken(account, Contract.AUTH_TYPE);
         if (tokenString != null) {
             tokenTextView.setText(tokenString);
         }
