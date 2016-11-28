@@ -1,10 +1,10 @@
-package be.howest.nmct.myapplication;
+package be.howest.nmct.herokulogin;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import be.howest.nmct.myapplication.auth.AuthHelper;
+import be.howest.nmct.herokulogin.auth.AuthHelper;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package be.howest.nmct.myapplication.auth;
+package be.howest.nmct.herokulogin.auth;
 
 import android.accounts.AbstractAccountAuthenticator;
 import android.accounts.Account;
@@ -9,7 +9,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
-import be.howest.nmct.myapplication.AccountLoginActivity;
+import be.howest.nmct.herokulogin.AccountLoginActivity;
+
+//import be.howest.nmct.myapplication.LoginActivity;
 
 /**
  * Created by brianmasschaele on 27/11/16.
