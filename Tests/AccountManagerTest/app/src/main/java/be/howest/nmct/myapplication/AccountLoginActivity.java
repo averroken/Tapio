@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 import be.howest.nmct.myapplication.auth.Contract;
 
-public class LoginActivity extends Activity {
+public class AccountLoginActivity extends Activity {
     private AccountManager mAccountManager;
     private AccountAuthenticatorResponse mAccountAuthenticatorResponse;
     private EditText usernameEditText, passwordEditText;
@@ -24,7 +24,7 @@ public class LoginActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.account_activity_login);
 
         initWidgets();
 
