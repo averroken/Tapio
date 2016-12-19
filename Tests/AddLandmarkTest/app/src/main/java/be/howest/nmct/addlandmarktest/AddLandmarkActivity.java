@@ -80,6 +80,7 @@ public class AddLandmarkActivity extends AppCompatActivity implements GoogleApiC
         view = findViewById(R.id.content_add_landmark);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
         mContext = this;
 
         initWidgets();
@@ -87,6 +88,7 @@ public class AddLandmarkActivity extends AppCompatActivity implements GoogleApiC
         initRetrofit();
         initFABs();
     }
+
 
     private void initFABs() {
         FloatingActionButton uploadLandmarkFAB = (FloatingActionButton) findViewById(R.id.upload_landmark_FAB);
@@ -117,6 +119,28 @@ public class AddLandmarkActivity extends AppCompatActivity implements GoogleApiC
                 showProgressDialog("Getting coordinates", "Checking GPS signal");
                 closeFloatingActionMenu();
                 checkLocationPermission();
+            }
+        });
+        setListenerFloatingActionMenu();
+    }
+
+    private void setListenerFloatingActionMenu(){
+        AppBarLayout appBarLayout = (AppBarLayout) findViewById(R.id.app_bar);
+        final FloatingActionsMenu floatingActionsMenu = (FloatingActionsMenu) findViewById(R.id.floating_action_menu);
+
+        appBarLayout.addOnOffsetChangedListener(new AppBarLayout.OnOffsetChangedListener() {
+            public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset) {
+                /**
+                 * verticalOffset changes in diapason
+                 * from 0 - appBar is fully unwrapped
+                 * to -appBarLayout's height - appBar is totally collapsed
+                 * so in example we hide FAB when user folds half of the appBarLayout
+                 */
+                if (appBarLayout.getHeight() / 2 < -verticalOffset) {
+                    floatingActionsMenu.setVisibility(View.GONE);
+                } else {
+                    floatingActionsMenu.setVisibility(View.VISIBLE);
+                }
             }
         });
     }
