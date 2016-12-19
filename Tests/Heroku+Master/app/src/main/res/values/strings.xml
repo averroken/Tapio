@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Heroku Login (Account Manager)</string>
+    <string name="facebook_app_id">100697627081768</string>
 </resources>

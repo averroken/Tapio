@@ -8,15 +8,32 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.support.design.widget.Snackbar;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
+
+import com.facebook.CallbackManager;
+import com.facebook.FacebookCallback;
+import com.facebook.FacebookException;
+import com.facebook.FacebookSdk;
+import com.facebook.GraphRequest;
+import com.facebook.GraphResponse;
+import com.facebook.login.LoginResult;
+import com.facebook.login.widget.LoginButton;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.IOException;
 
 import be.howest.nmct.herokulogin.auth.Contract;
 import be.howest.nmct.herokulogin.models.LoginResponse;
 import be.howest.nmct.herokulogin.models.TokenResponse;
+import be.howest.nmct.herokulogin.models.facebookTokenResponse;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -31,12 +48,20 @@ public class AccountLoginActivity extends Activity {
     private Context mContext;
     private TapioService service;
     private String token = null, usernameString, passwordString;
+    private LoginButton loginButton;
+    private CallbackManager callbackManager;
     private Retrofit retrofit;
+    private View view;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        FacebookSdk.sdkInitialize(getApplicationContext());
+        callbackManager = CallbackManager.Factory.create();
+
         setContentView(R.layout.account_activity_login);
+        view = findViewById(R.id.activity_login);
 
         initWidgets();
         initRetrofit();
@@ -67,9 +92,14 @@ public class AccountLoginActivity extends Activity {
                 }
             }
         });
+
+        loginButton = (LoginButton) findViewById(R.id.login_button);
+        loginButton.setReadPermissions("email");
+
+        initFacebookSignIn();
     }
 
-    private void addAccount(String username, String password, String token) {
+    private void addAccount(String token) {
             Account[] accountsByType = mAccountManager.getAccountsByType(Contract.ACCOUNT_TYPE);
             Account account;
 
@@ -114,7 +144,7 @@ public class AccountLoginActivity extends Activity {
                     Log.d("login", login.getToken());
                     token = login.getToken();
                     Toast.makeText(mContext, "Logged In", Toast.LENGTH_LONG).show();
-                    addAccount(username, password, token);
+                    addAccount(token);
                 } else {
                     Toast.makeText(mContext, "Login failed", Toast.LENGTH_LONG).show();
                     passwordEditText.setText("");
@@ -135,5 +165,82 @@ public class AccountLoginActivity extends Activity {
                 .build();
 
         service = retrofit.create(TapioService.class);
+    }
+
+    private void initFacebookSignIn() {
+        loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
+            @Override
+            public void onSuccess(LoginResult loginResult) {
+                final String authToken = loginResult.getAccessToken().getToken();
+
+                loginTapioWithToken(authToken);
+
+                GraphRequest request = GraphRequest.newMeRequest(
+                        loginResult.getAccessToken(),
+                        new GraphRequest.GraphJSONObjectCallback() {
+                            @Override
+                            public void onCompleted(JSONObject object, GraphResponse response) {
+                                Log.v("LoginActivity", response.toString());
+
+                                // Application code
+                                try {
+                                    usernameString = object.getString("name");
+                                    String email = object.getString("email");
+                                    addAccount(authToken);
+//                                    String birthday = object.getString("birthday"); // 01/31/1980 format
+                                } catch (JSONException e) {
+                                    e.printStackTrace();
+                                }
+                            }
+                        });
+                Bundle parameters = new Bundle();
+                parameters.putString("fields", "id,name,email,gender,birthday");
+                request.setParameters(parameters);
+                request.executeAsync();
+            }
+
+            @Override
+            public void onCancel() {
+            }
+
+            @Override
+            public void onError(FacebookException error) {
+            }
+        });
+    }
+
+    private void loginTapioWithToken(String facebookToken) {
+        Call<facebookTokenResponse> call = service.facebookTokenLogin(facebookToken);
+
+        call.enqueue(new Callback<facebookTokenResponse>() {
+            @Override
+            public void onResponse(Call<facebookTokenResponse> call, Response<facebookTokenResponse> response) {
+                Integer code = response.code();
+                if (code == 200) {
+                    Snackbar.make(view, "Facebook login succeeded", Snackbar.LENGTH_LONG)
+                            .setAction("Action", null).show();
+                } else {
+                    try {
+                        JSONObject jObjError = new JSONObject(response.errorBody().string());
+
+                        Snackbar.make(view, "Facebook login failed", Snackbar.LENGTH_LONG)
+                                .setAction("Action", null).show();
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+
+            @Override
+            public void onFailure(Call<facebookTokenResponse> call, Throwable t) {
+                Log.d("login", t.getMessage());
+            }
+        });
+    }
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        callbackManager.onActivityResult(requestCode, resultCode, data);
     }
 }

@@ -2,6 +2,7 @@ package be.howest.nmct.herokulogin;
 
 import be.howest.nmct.herokulogin.models.LoginResponse;
 import be.howest.nmct.herokulogin.models.TokenResponse;
+import be.howest.nmct.herokulogin.models.facebookTokenResponse;
 import retrofit2.Call;
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
@@ -22,4 +23,6 @@ public interface TapioService {
     @GET("api/android/tokenTest")
     Call<TokenResponse> testToken(@Query("token") String token);
 
+    @GET("auth/facebook/token")
+    Call<facebookTokenResponse> facebookTokenLogin(@Query("access_token") String access_token);
 }

@@ -94,6 +94,7 @@ public class MainActivity extends AppCompatActivity {
 
                                 // Application code
                                 try {
+                                    String name = object.getString("name");
                                     String email = object.getString("email");
 //                                    String birthday = object.getString("birthday"); // 01/31/1980 format
                                     emailTextview.setText(email);
