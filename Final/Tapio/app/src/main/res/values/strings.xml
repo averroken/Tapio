@@ -1,8 +1,21 @@
 <resources>
     <string name="app_name">Tapio</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_add_landmark">Add Landmark</string>
 
-    <string name="action_settings">Settings</string>
+    <string name="contentDescriptionLandmarkList">landmarks</string>
+    <string name="contentDescriptionDetailedLandmarks">landmark</string>
+    <string name="not_liked">Not liked</string>
+    <string name="not_favorited">Not Favorited</string>
+    <string name="liked">Liked</string>
+    <string name="favorited">Favorited</string>
+    <string name="toolbar_favorite_snack">"Favorite clicked: "</string>
+    <string name="toolbar_like_snack">"Like clicked: "</string>
+
+    <string name="facebook_app_id">100697627081768</string>
 </resources>

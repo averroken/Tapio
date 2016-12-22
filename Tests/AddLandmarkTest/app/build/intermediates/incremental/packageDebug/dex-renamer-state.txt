@@ -1,0 +1,7 @@
+#Mon Dec 19 09:32:38 CET 2016
+base.0=C\:\\Users\\Osedx\\Documents\\GitHub\\Tapio\\Tests\\AddLandmarkTest\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_8ba9afc44c9b0b7940e7a331094f92bd7fa00e5a
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Osedx\\Documents\\GitHub\\Tapio\\Tests\\AddLandmarkTest\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_a9d0246da5b8472069630a8da074070fea56613a\\classes.dex
+base.1=C\:\\Users\\Osedx\\Documents\\GitHub\\Tapio\\Tests\\AddLandmarkTest\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_a9d0246da5b8472069630a8da074070fea56613a
+file.0=C\:\\Users\\Osedx\\Documents\\GitHub\\Tapio\\Tests\\AddLandmarkTest\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_8ba9afc44c9b0b7940e7a331094f92bd7fa00e5a\\classes.dex

@@ -2,31 +2,59 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="be.howest.nmct.tapio">
 
-    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
-    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.INTERNET" />
-
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
     <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <permission android:name="be.howest.nmct.tapiolandmarks.provider.permission.READ_PROVIDER" />
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+        android:theme="@style/AppTheme.NoActionBar">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity android:name=".view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".AccountLoginActivity" />
-        <activity android:name=".LoggedIn" />
+
+        <activity android:name=".view.LoginActivity" />
+
+        <activity android:name=".view.LandmarkDetailActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="be.howest.nmct.tapio.view.MainActivity" />
+
+        </activity>
+
+        <activity android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:label="@string/app_name" />
+
+
+        <activity
+            android:name=".view.AddLandmarkActivity"
+            android:label="@string/title_activity_add_landmark"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="be.howest.nmct.tapio.view.MainActivity" />
+        </activity>
 
         <service
             android:name=".auth.AuthenticatorService"
@@ -40,6 +68,13 @@
                 android:name="android.accounts.AccountAuthenticator"
                 android:resource="@xml/account_authenticator" />
         </service>
+
+        <provider
+            android:name=".provider.LandmarksProvider"
+            android:authorities="be.howest.nmct.TapioLandmarks"
+            android:permission="be.howest.nmct.tapiolandmarks.provider.permission.READ_PROVIDER"
+            android:enabled="true"
+            android:exported="true" />
     </application>
 
 </manifest>

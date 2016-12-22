@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.0.1_840be06ec54f6d36a41aa00e795a081b928a186a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-10.0.1_07ae9ac1aef6c398f78c247b3c73980d7befdb7d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-10.0.1_87a4aaf87f77ddf709cf44e0a5213827be344bca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_91f3b411adb0f4ba1233733900d2fe433c955f74\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-10.0.1_07e4bb031e32b8026556f4fac460b12b4ae57ee1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-10.0.1_cf317b4765135d41092a1dbc824263d700a0086e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-10.0.1_c467cf507a118daaf5daad3b4f8f6d6bf40c3c0f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-10.0.1_2a4bb4e70b716455e08a61f8a4cd25dd38a294ba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_1cd0823013133b0e9afc542d6307f29bb85e97d1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-10.0.1_33b2dc5bd9a37dc8645096a3b4188aee9b668b89\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_8ce4cbb6b637565deb2e8312e361d39d98cec700\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-10.0.1_c668b61663dfd89eea721c9d193f436ff006b43d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.0.1_71f8c983de8085eb3f1bca0279794c0b08cc3eb4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f6cf557be4dbd0282ea2388633e5378634423226">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-10.0.1_eef90e3deb679ed1f3a69dcce796d8730addbc14\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_41597e966505dec4b46dc1f2f846024e55492476\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-v4-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-v4-impl-10.0.1_92690ec7faf4295a3667a8bb146c837236e7b5a8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-awareness-10.0.1_8af7b23f6b01fa9cc02bf30ebb94038c40b70f3c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-10.0.1_6a1739dab486b98cbd70ebfd4767c1ab5e5ef124\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-10.0.1_b3b88d3d15cb24d9b7e8002d8a6317c4ad82cae7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.8.0_3fef6d8d498afa9a951860df9c5878c87977553e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-10.0.1_23c75ea6dd644266bbf7b3b21e47528762b9482a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-10.0.1_071485b65f19fe657d0b59cf4b30107310cb4b27\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-10.0.1_1238e328fae93ea2294ae84f7f3707b4ac473d86\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.0_db1328baf8a7d3f536565ac00471c3397a740edb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.getbase\floatingactionbutton\1.10.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f40cf334cdc8b098b74312e21c7741c6eefbeb0e">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.getbase-floatingactionbutton-1.10.1_bf7b37ec94c1e2efa71bcdce7072e2a54cb27124\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4c829ff0ccfecb28a999ee46d9e75948dfc777a4">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-10.0.1_f870bf150f7b958679e6b86a977864fa04551f3c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.0.1_611b5213051f5a183f871b37218c649484b5cdaf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_420b6a07c160c049b54a3c11e670eb6c24e71421\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="92c871a22463a247e8a77a9f3fd231c278788c4a">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-10.0.1_b10c951a5e286f678c93b3e30d2819d959f5d918\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_fd0d75787b22a9e90edb7d0d653f3d38f53a03e8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-10.0.1_97764f057edb7de8f93b15917f2aebec8a2bc03b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-10.0.1_45fdeff25c20346f7fba8bf400d8ff25efa05375\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.android.support\palette-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-24.0.0_b8071b2ffce6f70bdbc626396890c7318bea3a82\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-10.0.1_c6143fab8624c262a8b62ab499517b47a115a344\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-10.0.1_025c9b1148b508afdf509ec2611717d2ade1f271\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-10.0.1_ec75f412a06345027787649d2dcaf453c4887df2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-10.0.1_aa753bc74b38016987792db77480d6c79b5d8450\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_508751f6b658655c84a4d27b2a037a6c375e1f7c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-10.0.1_5a243caca24db5a741c5130f455e42f647f7d2a6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-10.0.1_83ec5704cedd9a2f62c89ee008d3b864655a9e06\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_0546084082cfb435c85b4ce3fe39f5188187ae61\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-10.0.1_2ae189306c5673e4acd23bfa64f3053a38992f87\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-instantapps\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45305e6af414dab5aba6c3225081c2f15c3bdd1e">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-instantapps-10.0.1_a4b76c59596997cf42afaed251496d0b442d8152\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-10.0.1_9580928eec85404f6be28ed8657ca2b1093cbeeb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-10.0.1_0cfe7c2f53b29d5d3dbed6a7956100df0f029733\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_d56d89ef714ec0857bf18b03ec82ff1943daad66\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-10.0.1_a57f7b770a59c1105d42abd4a12db1bfd21f239a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="34457a997864bd2eaf55c3aad52be91c119fbbbe">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_8ba9afc44c9b0b7940e7a331094f92bd7fa00e5a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-10.0.1_0b49f36bdd27fdf7bc026e9a0e5bb45f8a4f747b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.1.0_2cca3ce9c17d7ba5824193844f421b2f306fa98b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a48dc0b148059764d32500be558702d5ff932058">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-10.0.1_589b7e3f4554bafffdb10de2a728ff3222de7a09\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-10.0.1_4d98d366ed8f8487a8944873de1c316896cc33da\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-10.0.1_544e79602a0ab0c1c9a291555658546b5d062279\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Users\Osedx\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_ef393979ac075d4c8a93ea10b330467b0a401694\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-24.0.0_4dcb4e6124f43cc6f5bf9e4044e172e221b7375d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-10.0.1_bbe44bc5ad991a3b0ad9c19c374a0367d36b315b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-10.0.1_1c413e56b5e2c3b0536a7e6104a2634f4ea038fd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.0.1_e3606eeb332811c764788c9d8cd733aaca5f632d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_e4c9f17f2a592fa4a81b8ab642c53196c5451c61\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_0322c4b3ada35e782e8ee5992f3ad3eb35b8a5ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_b1f1dfa7e538eaa396d513c059e76732447896a2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_f8213540f01e763f2df07f007ec818f44df3a20a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-10.0.1_00446474219fa901b6c78bf7bcbafb900f5d3ceb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-10.0.1_c1ab112d0ad1bb4e8d2743e7bab9a2d1110eb9a2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-10.0.1_1593eb4a8de38f76ad302be58b74432b5d22cb81\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_0d75f03f0d220c4d0f1af43b00584c9183b23952\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_30cd008d281693687369239b62a7fcc2abdd42a2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_8b36c2b875c45acbe6f9a2e7151e2fe0f136abc3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.0.1_ea1aa069f3f7e82ee30794842aad4de1f90e4dc2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_4e3e83730ae296bc7f365ebb3effa1c2d611c4db\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4df296398935da63565e3203118d4af91b06fe2c">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_a9d0246da5b8472069630a8da074070fea56613a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.firebase\firebase-appindexing\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-appindexing-10.0.1_66ed6434bb24f27cd42ef4f4831bc8ac967522cc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_e5f6616d155cee5d4c2eb3e84f01c5896bfad9db\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2d5d113b0352ab60946fc44c518cf68fd26cbb79">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-10.0.1_c296a79a8c98f5b8e6ca562b5968c73dd1eebb1d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-10.0.1_2fdcecbaaafc232a26468abec187a161db47ceba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\Osedx\Documents\GitHub\Tapio\Tests\AddLandmarkTest\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_05c692acea8f9225c95ef2a41ac913598d23d422\classes.dex" />
+    </item>
+
+</items>

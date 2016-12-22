@@ -9,12 +9,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
-import be.howest.nmct.tapio.AccountLoginActivity;
+import be.howest.nmct.tapio.view.LoginActivity;
 
-
-/**
- * Created by brianmasschaele on 27/11/16.
- */
 
 public class Authenticator extends AbstractAccountAuthenticator {
     private final Context mContext;
@@ -39,7 +35,7 @@ public class Authenticator extends AbstractAccountAuthenticator {
     }
 
     private Bundle createAuthenticatorActivityBundle(AccountAuthenticatorResponse response){
-        Intent intent = new Intent(mContext, AccountLoginActivity.class);
+        Intent intent = new Intent(mContext, LoginActivity.class);
         intent.putExtra(AccountManager.KEY_ACCOUNT_AUTHENTICATOR_RESPONSE, response);
 
         Bundle bundle = new Bundle();

@@ -1,0 +1,7 @@
+#Mon Dec 19 11:04:29 CET 2016
+base.0=C\:\\Users\\Osedx\\Documents\\GitHub\\Tapio\\Tests\\FacebookLoginTest\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_4957be8e46677c8827a0885d940b38a6bd813fb4
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Osedx\\Documents\\GitHub\\Tapio\\Tests\\FacebookLoginTest\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_ff93ab8a2b0fd490af0c19cdef4a539a24aa41e6\\classes.dex
+base.1=C\:\\Users\\Osedx\\Documents\\GitHub\\Tapio\\Tests\\FacebookLoginTest\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_ff93ab8a2b0fd490af0c19cdef4a539a24aa41e6
+file.0=C\:\\Users\\Osedx\\Documents\\GitHub\\Tapio\\Tests\\FacebookLoginTest\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_4957be8e46677c8827a0885d940b38a6bd813fb4\\classes.dex
